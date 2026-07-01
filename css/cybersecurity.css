@@ -1,0 +1,75 @@
+/* General Layout */
+
+/* Hero Section */
+.service-hero {
+    /* background: url('../Image/cybersecurity-bg.jpg') center/cover no-repeat; */
+    background-image: linear-gradient(rgba(26, 61, 124, 0.8), rgba(26, 61, 124, 0.8)), url("../Image//services-hero.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.service-hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Service Content */
+.service-content {
+    padding: 50px 10%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.service-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #003366;
+}
+.service-content p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.service-content ul {
+    list-style: none;
+    padding: 0;
+}
+.service-content ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+.service-content ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* CTA Box */
+.cta-box {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+.cta-box h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.cta-box a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #C8102E;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta-box a:hover {
+    background: #A10E25;
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DolamiChest | Home Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Image/logo dolamichest.jpg" alt="Dolamichest Logo">
+                <span>DOLAMICHEST</span>
+            </div>
+
+            <!-- Hamburger Button -->
+            <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Services ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="assessment.html">Assessment & Audit</a></li>
+                        <li><a href="cybersecurity.html">Cybersecurity Advisory</a></li>
+                        <li><a href="forensics.html">Digital Forensics</a></li>
+                        <li><a href="consulting.html">Consulting</a></li>
+                        <li><a href="compliance.html">Compliance & Training</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Securing Businesses, Empowering Innovation</h1>
+                <p>
+                    At Dolamichest Nigeria Limited, we deliver cutting-edge cybersecurity, digital forensics, IT
+                    consulting, and compliance solutions that help businesses stay secure, resilient, and future-ready.
+                </p>
+                <a href="#consultation" class="btn-primary">Get a Free Consultation</a>
+                <a href="contact.html" class="btn-secondary">Contact Us Today</a>
+            </div>
+            <div class="hero-image">
+                <!-- <img src="Image/hero.jpg" alt="Hero Image"> -->
+            </div>
+        </div>
+        <section class="about">
+            <div class="about-image">
+                <img src="Image/about-section.jpg" alt="About Us Image">
+            </div>
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>
+                    We are a trusted cybersecurity and IT consulting company based in Lagos, Nigeria, specializing in
+                    risk management, compliance, digital forensics, and enterprise IT solutions. With a strong focus on
+                    protection, prevention, and preparedness, we partner with organizations to safeguard their data,
+                    systems, and reputation in an increasingly complex digital landscape.
+                </p>
+                <a href="about.html" class="btn-about">Learn More About Us</a>
+            </div>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card" id="assessment">
+                    <i class="fa-solid fa-shield-halved fa-lg head"></i>
+                    <h3>Assessment, Audit & Assurance</h3>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Penetration Testing</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Ransomeware Preparedness</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Identity & Access Management</p>
+                    </div>
+                    <a href="assessment.html" class="learn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" id="cybersecurity">
+                    <i class="fa-solid fa-triangle-exclamation fa-lg head"></i>
+                    <h3>Cybersecurity Risk Advisory</h3>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Cloud Security</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Business Continuity</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Migration Risk Management</p>
+                    </div>
+                    <a href="cybersecurity.html" class="learn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" id="forensics">
+                    <i class="fa-solid fa-magnifying-glass fa-lg head"></i>
+                    <h3>Digital Forensics</h3>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Forensic Analysis</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Fraud Investigation</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Identity Theft Forensic</p>
+                    </div>
+                    <a href="forensics.html" class="learn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" id="consulting">
+                    <i class="fa-solid fa-laptop-code fa-lg head"></i>
+                    <h3>Consulting</h3>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Software Development</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Enterprise Architecture</p>
+                        <p><i class="fa-regular fa-circle-check"></i>IT Strategy & Planning</p>
+                    </div>
+                    <a href="consulting.html" class="learn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" id="compliance">
+                    <i class="fa-solid fa-file-contract fa-lg head"></i>
+                    <h3>Compliance & Training</h3>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Regulatory Compliance</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Cybersecurity Training</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Data Privacy & Protection</p>
+                    </div>
+                    <a href="compliance.html" class="learn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="why">
+            <h2>Why Choose Dolamichest?</h2>
+            <div class="why-content">
+                <div class="left">
+                    <div>
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Experienced cybersecurity & IT professionals</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Tailored solution for SMEs, enterprises and government</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Proactive approach to risk management</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>24/7 client support and rapid incident response</p>
+                    </div>
+                </div>
+                <div class="right"><img src="Image/why-section-two.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="consultation" id="consultation">
+            <h2>Schedule a consultation form</h2>
+            <div class="both-sides">
+                <div class="left">
+                    <h3>Ready To Transform Your Business?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore vel architecto beatae omnis et
+                        dolores temporibus exercitationem nulla. Expedita perferendis delectus porro ipsa atque nobis
+                        nesciunt veritatis repudiandae labore accusantium?
+                    </p>
+                    <div class="records">
+                        <div class="each">
+                            <h3>500+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="each">
+                            <h3>300+</h3>
+                            <p>Satisfied Clients</p>
+                        </div>
+                        <div class="each">
+                            <h3>10+</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>Schedule a Free Consultation</h3>
+                    <p>Fill out the form below and our team will contact you within 24 hours.</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="" id="">
+                                <option value="" disabled selected>Service Interested In</option>
+                                <option value="assessment">Assessment & Audit</option>
+                                <option value="cybersecurity">Cybersecurity Advisory</option>
+                                <option value="forensics">Digital Forensics</option>
+                                <option value="consulting">Consulting</option>
+                                <option value="compliance">Compliance & Training</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="stories">
+                <div class="each-story">
+                    <p class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequuntur eveniet
+                        excepturi quaerat commodi beatae. Porro consequatur soluta consectetur quisquam officia, minima
+                        explicabo eligendi nam impedit totam magnam facere provident!</p>
+                    <div class="both">
+                        <div class="left">
+                            <div class="user"><img src="Image/user-testimonial-section.webp" alt=""></div>
+                            <div class="user-details">
+                                <h4>Michael Anderson</h4>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="right"><i class="fa-sharp fa-solid fa-quote-left"></i></div>
+                    </div>
+                </div>
+                <div class="each-story">
+                    <p class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequuntur eveniet
+                        excepturi quaerat commodi beatae. Porro consequatur soluta consectetur quisquam officia, minima
+                        explicabo eligendi nam impedit totam magnam facere provident!</p>
+                    <div class="both">
+                        <div class="left">
+                            <div class="user"><img src="Image/user-testimonial-section.webp" alt=""></div>
+                            <div class="user-details">
+                                <h4>Michael Anderson</h4>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="right"><i class="fa-sharp fa-solid fa-quote-left"></i></div>
+                    </div>
+                </div>
+                <div class="each-story">
+                    <p class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequuntur eveniet
+                        excepturi quaerat commodi beatae. Porro consequatur soluta consectetur quisquam officia, minima
+                        explicabo eligendi nam impedit totam magnam facere provident!</p>
+                    <div class="both">
+                        <div class="left">
+                            <div class="user"><img src="Image/user-testimonial-section.webp" alt=""></div>
+                            <div class="user-details">
+                                <h4>Michael Anderson</h4>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="right"><i class="fa-sharp fa-solid fa-quote-left"></i></div>
+                    </div>
+                </div>
+                <div class="each-story">
+                    <p class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequuntur eveniet
+                        excepturi quaerat commodi beatae. Porro consequatur soluta consectetur quisquam officia, minima
+                        explicabo eligendi nam impedit totam magnam facere provident!</p>
+                    <div class="both">
+                        <div class="left">
+                            <div class="user"><img src="Image/user-testimonial-section.webp" alt=""></div>
+                            <div class="user-details">
+                                <h4>Michael Anderson</h4>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="right"><i class="fa-sharp fa-solid fa-quote-left"></i></div>
+                    </div>
+                </div>
+                <div class="each-story">
+                    <p class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequuntur eveniet
+                        excepturi quaerat commodi beatae. Porro consequatur soluta consectetur quisquam officia, minima
+                        explicabo eligendi nam impedit totam magnam facere provident!</p>
+                    <div class="both">
+                        <div class="left">
+                            <div class="user"><img src="Image/user-testimonial-section.webp" alt=""></div>
+                            <div class="user-details">
+                                <h4>Michael Anderson</h4>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="right"><i class="fa-sharp fa-solid fa-quote-left"></i></div>
+                    </div>
+                </div>
+                <div class="each-story">
+                    <p class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequuntur eveniet
+                        excepturi quaerat commodi beatae. Porro consequatur soluta consectetur quisquam officia, minima
+                        explicabo eligendi nam impedit totam magnam facere provident!</p>
+                    <div class="both">
+                        <div class="left">
+                            <div class="user"><img src="Image/user-testimonial-section.webp" alt=""></div>
+                            <div class="user-details">
+                                <h4>Michael Anderson</h4>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="right"><i class="fa-sharp fa-solid fa-quote-left"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-details">
+            <div class="address">
+                <div class="heading">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Address</h3>
+                </div>
+                <div class="body">
+                    Suite 1, LSDPC Commercial Complex, Bode Thomas Extension by Western Avenue, Iponri, Lagos.
+                </div>
+            </div>
+            <div class="address">
+                <div class="heading">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Contact</h3>
+                </div>
+                <div class="body">
+                    <p><span>Phone: </span>0813 184 0991, 0907 551 5381</p>
+                    <p><span>Email: </span>enquiry@dolamichest.com</p>
+                </div>
+            </div>
+            <div class="address">
+                <div class="heading">
+                    <i class="fa-regular fa-clock"></i>
+                    <h3>Opening Hours</h3>
+                </div>
+                <div class="body">
+                    <p><span>Mon-Sat: </span>8am - 5pm</p>
+                    <p><span>Sunday: </span>Closed</p>
+                </div>
+            </div>
+            <div class="socials">
+                <div class="heading">
+                    <h3>Follow Us</h3>
+                </div>
+                <div class="body">
+                    <a href=""><i class="fa-brands fa-x"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; 2024 Dolamichest Nigeria Limited. All rights reserved.</p>
+            <!-- <p>Designed by Dolamichest Nigeria Limited</p> -->
+        </div>
+    </footer>
+</body>
+<script src="js/app.js"></script>
+
+</html>
